@@ -1,0 +1,6 @@
+.container#container
+    -for(var r = 0; r < 20; r++)
+      .row
+          -for(var s = 0; s < 100; s++)
+            .square(onmouseOver = "this.style.background = 'black'")
+input(type = 'button' value = 'Clear' onclick = 'Reset()')
